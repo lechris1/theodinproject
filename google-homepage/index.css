@@ -1,3 +1,4 @@
+/*Header*/
 #header {
   float: right;
   margin-top: -70px;
@@ -66,6 +67,8 @@
   width: 32px;
   display: inline-block;
 }
+
+/*Google Logo*/
 #googleimg {
   display: block;
   margin: 0 auto;
@@ -75,6 +78,8 @@
   height: 233px;
   margin-top: 89px;
 }
+
+/*Form*/
 #searchform {
   width: 584px;
   display: block;
@@ -136,4 +141,38 @@
   border: 1px solid #c6c6c6;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
   color: #222;
+}
+
+/*Footer*/
+#footerbar {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: #f2f2f2;
+  margin-left: -8px;
+  line-height: 40px;
+  border-top: 1px solid #e4e4e4;
+}
+#footleft {
+  float: left;
+}
+#fllink {
+  padding-left: 27px;
+}
+#footright {
+  float: right;
+}
+#frlink {
+  padding-right: 27px;
+}
+.footlinks {
+  color: #666;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+.footlinks:-webkit-any-link {
+  text-decoration: none;
+}
+.footlinks:hover {
+  text-decoration: underline;
 }
