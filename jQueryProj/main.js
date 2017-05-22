@@ -43,9 +43,10 @@ $(document).ready(function() {
     var opacity = 0.1;
     $(".box").mouseenter(function() {
       var currentColor = "rgba(0, 0, 0," + opacity + ")";
+      console.log(opacity);
       $(this).css("background-color", currentColor);
       if (opacity < 1) {
-          opacity += 0.1;
+          opacity = parseFloat((opacity + 0.1).toFixed(1));
       }
       else {
         opacity = 0.1;
